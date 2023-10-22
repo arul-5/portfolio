@@ -330,7 +330,11 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
+  margin: auto;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 790px;
 }
 
 .article-container {
@@ -338,6 +342,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
+  max-width: 790px;
   gap: 2.5rem;
   justify-content: space-around;
 }
@@ -345,7 +350,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
