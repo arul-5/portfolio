@@ -403,6 +403,8 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+   max-width:500px;
+  flex-wrap: wrap;
 }
 
 .contact-info-container {
